@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-
+   
     <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
@@ -33,8 +33,20 @@
                 </ul>
             </nav>
             <ul class="contacts-list list">
-                <li><a class="contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li>
+                    <a class="contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com
+                        <svg class="contacts-list-icon" width="16" height="12">
+                            <use href="./images/icons.svg#envelope-hover"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a class="contacts-link link" href="tel:+380961111111">+38 096 111 11 11
+                        <svg class="contacts-list-icon" width="10" height="16">
+                            <use href="./images/icons.svg#smartphone"></use>
+                        </svg>
+                    </a>
+                </li>
             </ul>
         </div>
     </header>
@@ -51,6 +63,11 @@
                 <h2 class="visually-hidden">Наші переваги</h2>
                 <ul class="advantage-list list">
                     <li class="advantage-item">
+                        <div>
+                            <svg class="" width="10" height="16">
+                                <use href="/images/icons.svg#astronaut"></use>
+                            </svg>  
+                        </div>
                         <h3 class="advantage-title">УВАГА ДО ДЕТАЛЕЙ</h3>
                         <p class="advantage-text">
                             Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.

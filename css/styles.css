@@ -99,6 +99,9 @@ ul {
     align-items: center;
     gap: 50px;
 }
+.contacts-list-icon{
+    fill: red;
+}
 
 
 .header-link,
