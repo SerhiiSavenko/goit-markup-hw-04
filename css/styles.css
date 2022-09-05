@@ -99,9 +99,8 @@ ul {
     align-items: center;
     gap: 50px;
 }
-.contacts-list-icon{
-    fill: red;
-}
+
+
 
 
 .header-link,
@@ -149,7 +148,15 @@ color: var(--basic-blue);
     padding: 200px 0;
     background-color: var(--secondary-cl);
     text-align: center;
-   
+    max-width: 1600px;
+    height: 600px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/main-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
  }
 
 .main-title{
@@ -177,8 +184,19 @@ color: var(--basic-blue);
     background-color: var(--basic-blue);
     border-radius: 4px;
     cursor: pointer;
+    border: none;
 }
-
+.advantage-icon-fon {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
 
 .advantage-list {
     display: flex;
