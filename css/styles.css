@@ -76,6 +76,7 @@ ul {
 
 /*header*/
 .header{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-bottom: 1px solid #ececec;
 }
 .header-container,
@@ -255,7 +256,7 @@ color: var(--basic-blue);
     gap: 30px;
 }
 .team-item {
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0px 0px 4px 4px;
 }
 .team-info {
@@ -279,6 +280,31 @@ color: var(--basic-blue);
     color: var(--contacts-cl); 
     margin-bottom: 16px;
 }
+/* regular customers */
+.customers-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.customers-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--icon-social-cl);
+    border-radius: 4px;
+    color: var(--icon-social-cl);
+    cursor: pointer;
+}
+.customers-link:hover,
+.customers-link:focus {
+    color: var(--basic-blue);
+    border-color: var(--basic-blue);
+}
+.customers-icon {
+    fill: currentColor;
+}
 /*Social*/
 .team-social-list {
     display: flex;
@@ -293,6 +319,7 @@ color: var(--basic-blue);
     height: 44px;
     border-radius: 50%;
     color: var(--icon-social-cl);
+    cursor: pointer;
 }
 .team-list-link:hover,
 .team-list-link:focus {
@@ -390,6 +417,10 @@ color: var(--basic-blue);
 .portf-button-item:not(:last-child) {
     margin-right: 8px;
 }
+.portf-button-item:hover,
+.portf-button-item:focus{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 .portf-button-text {
     font-weight: 500;
     font-size: 16px;
@@ -418,11 +449,15 @@ color: var(--basic-blue);
     gap: 30px;
  
 }
+.main-list-item:hover,
+.main-list-item:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 .main-list-info {
     padding: 20px 24px;
     border-right: 1px solid #eeeeee;
-     border-bottom: 1px solid #eeeeee;
-     border-left: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
 }
 .main-list-title {
     font-weight: 700;
